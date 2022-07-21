@@ -1,0 +1,19 @@
+{
+  "name": "cm4025_resit_cw",
+  "version": "1.0.0",
+  "description": "Resit Coursework",
+  "main": "main_html.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rokas1707426/CM4025_RESIT_CW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rokas1707426/CM4025_RESIT_CW/issues"
+  },
+  "homepage": "https://github.com/Rokas1707426/CM4025_RESIT_CW#readme"
+}
