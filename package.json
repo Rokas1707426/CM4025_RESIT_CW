@@ -4,7 +4,7 @@
   "description": "Resit Coursework",
   "main": "main_html.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node myserver.js"
   },
   "repository": {
     "type": "git",
