@@ -1,5 +1,5 @@
 ;body{
-    background-image:url('unicornride500.gif');
+    background-image:url(login.jpg);
     background-size: cover;
     
     
@@ -9,7 +9,7 @@
     margin:0;
 }
 #header {
-  background-image:url('http://webdevkieransoutter.altervista.org/styles/unicornride500.gif');
+  background-image:url(login.jpg);
   background-size: cover;
   height: 10%;
   width: 100;
