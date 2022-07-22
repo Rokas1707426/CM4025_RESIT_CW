@@ -12,7 +12,8 @@
   },
   "author": "Rokas1707426",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "mongodb": "^4.8.0"
   },
   "license": "ISC"
 }
