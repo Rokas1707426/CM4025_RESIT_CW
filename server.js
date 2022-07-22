@@ -3,10 +3,11 @@
 var express = require('express');
 var app     = express();
 const PORT = process.env.PORT || 8080;
-const DBURI = process.env.DBURI || "mongodb+srv://admin123:admin123@users.ibzed.mongodb.net/Users?retryWrites=true&w=majority";
+const DBURI = process.env.DBURI || "mongodb+srv://admin123:admin123@users.ibzed.mongodb.net/?retryWrites=true&w=majority";
 
 const MongoClient = require('mongodb').MongoClient;
 const uri = DBURI;
+//const client = new MongoClient(uri, { useNewUrlParser: true});
 
 
 
