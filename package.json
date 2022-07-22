@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git"
   },
   "author": "Rokas1707426",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
   "license": "ISC"
 }
