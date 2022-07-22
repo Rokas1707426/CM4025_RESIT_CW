@@ -3,7 +3,7 @@
 var express = require('express');
 var app     = express();
 const PORT = process.env.PORT || 8080;
-const DBURI = process.env.DBURI || "mongodb://127.0.0.1:27017";
+const DBURI = process.env.DBURI || "mongodb+srv://admin123:admin123@users.ibzed.mongodb.net/?retryWrites=true&w=majority";
 
 const MongoClient = require('mongodb').MongoClient;
 const uri = DBURI;
@@ -47,7 +47,7 @@ app.route('/login')
             if(err) throw err;
             console.log('Start the database stuff');
             //Write databse Insert/Update/Query code here..
-            var dbo = db.db("mydb");
+            var dbo = db.db("Users");
             var myobj = { firstInput: input1, secondInput: input2 };
             dbo.collection("users").insertOne(myobj, function(err, res) {
               if (err) throw err;
